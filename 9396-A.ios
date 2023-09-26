@@ -29,8 +29,8 @@ interface nve1
   mtu 9216
   no shutdown
   source-interface loopback1
-  member vni 160010 mcast-group 203.0.114.1
-  member vni 160020 mcast-group 203.0.114.1
+  member vni 160010 mcast-group 203.0.113.1
+  member vni 160020 mcast-group 203.0.113.1
   
 interface Ethernet1/7
   no switchport
