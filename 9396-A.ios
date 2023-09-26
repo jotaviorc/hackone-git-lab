@@ -31,6 +31,7 @@ interface nve1
   source-interface loopback1
   member vni 160010 mcast-group 203.0.114.1
   member vni 160020 mcast-group 203.0.114.1
+  
 interface Ethernet1/7
   no switchport
   ip address 192.168.1.2/30
